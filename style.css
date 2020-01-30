@@ -1,0 +1,53 @@
+body {
+    background: #DCDCDC;
+    padding: 5px;
+    font-size: 20px;
+}
+header {
+    background-color: black;
+    color: white;
+    margin: 5px;
+    text-align: center;
+    padding: 30px;
+} 
+nav {
+    background-color: rgb(250, 16, 106);
+    margin: 5px;
+    text-align: center;
+    padding: 10px;
+}
+article {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 50px;
+    margin: 5px ;
+    width: 800px;
+    height: 80px;
+}
+aside {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 50px;
+    margin: 5px;
+    height: 270px;
+    width: 260px;
+}
+footer {
+    background-color: black;
+    color: white; 
+    text-align: center;
+    padding: 15px;
+    margin: 5px;
+}
+.contenedor {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-around;
+}
+.personal {
+    background-color: grey;
+    padding: 5px;
+}
